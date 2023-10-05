@@ -5,7 +5,7 @@ const deviceId = ""
 
 function pushPixlet() {
 	exec("pixlet render chi_l_track.star", (err, out, stderr) => {
-		exec("pixlet push --api-token " + token + " --installation-id chi_l_track " + deviceId + " chi_l_track.webp", (err1, out1, stderr1) => {
+		exec("pixlet push --api-token " + token + " --installation-id chiltrack " + deviceId + " chi_l_track.webp", (err1, out1, stderr1) => {
 
 		})
 	})
